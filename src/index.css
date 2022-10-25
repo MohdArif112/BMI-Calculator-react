@@ -31,6 +31,14 @@ input {
   width: 260px;
   font-weight: 600;
   padding: 5px;
+  border-radius: 6px;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+.sb-btn {
+
+  background-color: black;
+  color: white;
 }
 
 .bmi-sec {
@@ -45,7 +53,6 @@ input {
 }
 
 .img{
-
   text-align: center;
 }
 
