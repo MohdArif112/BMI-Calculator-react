@@ -15,7 +15,7 @@ function App() {
   const calBmi = (event) => {
     
     event.preventDefault();
-    if(weight == 0 || height == 0){
+    if(weight === 0 || height === 0){
       alert("Fill the inputs properly")
     }
     else{
