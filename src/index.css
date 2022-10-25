@@ -1,3 +1,54 @@
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0px 0px 12px grey;
+}
+
+h3 {
+  text-align: center;
+}
+input {
+  padding: 5px;
+  width: 250px;
+  margin-top: 5px;
+}
+
+.mar {
+
+  margin: 10px;
+}
+.btn {
+  margin: 10px;
+  width: 260px;
+  font-weight: 600;
+  padding: 5px;
+}
+
+.bmi-sec {
+
+  text-align: center;
+  font-weight: bold;
+}
+
+.msg-sec{
+
+  text-align: center;
+}
+
+.img{
+
+  text-align: center;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
